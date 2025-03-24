@@ -1,44 +1,66 @@
-  #include <stdio.h>
+#include <stdio.h>
 
-int main()
-{
+int main(){
 
-    printf("Desafio Super Trunfo!\n");
+char Estado1;
+printf("\n Super Trunfo \n");
+char CodigoDaCarta1[6];
+char Cidade1[85];
+float Area1;
+float PIB1;
+int PontosTuristicos1;
 
-    char Estado;
-    char CodigoCarta[8];
-    char Cidade[50];
-    int População;
-    float Area;
-    float PIB;
-    int PontosTuristicos;
+printf("\n Registro Carta 1 \n");
 
-    printf("Registro da Carta 1: \n");
+printf("Digite a letra do Estado da carta 1:\n");
+scanf(" %c", &Estado1);
 
-    printf("Digite a Letra do Estado: ");
-    scanf("%c", &Estado);
+printf("Digite o Codigo da Carta 1:\n");
+scanf("%6s", CodigoDaCarta1);
 
-    printf("Digite o Código: ");
-    scanf("%s", &CodigoCarta);
+printf("Digite a Cidade:\n");
+scanf("%84s", Cidade1);
 
-    printf("Digite o Nome da Cidade: ");
-    scanf("%s", &Cidade);
+printf("Digite a Area em km²:\n");
+scanf("%f", &Area1);
 
-    printf("Digite a População: ");
-    scanf("%d", &População);
+printf("Digite o PIB:\n");
+scanf("%f", &PIB1);
 
-    printf("Digite o Valor da Área em km²: ");
-    scanf("%d", &Area);
+printf("Quantidade de Pontos Turisticos:\n");
+scanf("%d", &PontosTuristicos1);
 
-    printf("Digite o PIB: ");
-    scanf("%f", &PIB);
+char Estado2;
+char CodigoDaCarta2[7];
+char Cidade2[81];
+float Area2;
+float PIB2;
+int PontosTuristicos2;
 
-    printf("Digite o Número de Pontos Turisticos: ");
-    scanf("%d", &PontosTuristicos);
+printf("\n Registro Carta 2\n");
 
-    return 0;
+printf("Digite a letra do Estado da Carta 2:\n");
+scanf(" %c", &Estado2);
+
+printf("Digite o Codigo Da Carta 2:\n");
+scanf("%6s", CodigoDaCarta2);
+
+printf("Digite a Cidade:\n");
+scanf("%80s", Cidade2);
+
+printf("Digite a Area:\n");
+scanf("%f", &Area2);
+
+printf("Digite o PIB:\n");
+scanf("%f", &PIB2);
+
+printf("Quantidade de Pontos Turisticos:\n");
+scanf("%d", &PontosTuristicos2);
+
+return 0;
+
+
 }
-
       
 
 
