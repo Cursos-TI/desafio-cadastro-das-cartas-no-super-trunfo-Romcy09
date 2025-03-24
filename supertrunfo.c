@@ -4,8 +4,8 @@ int main(){
 
 char Estado1;
 printf("\n Super Trunfo \n");
-char CodigoDaCarta1[6];
-char Cidade1[85];
+char CodigoDaCarta1[20];
+char Cidade1[1000];
 float Area1;
 float PIB1;
 int PontosTuristicos1;
@@ -31,8 +31,8 @@ printf("Quantidade de Pontos Turisticos:\n");
 scanf("%d", &PontosTuristicos1);
 
 char Estado2;
-char CodigoDaCarta2[7];
-char Cidade2[81];
+char CodigoDaCarta2[20];
+char Cidade2[1000];
 float Area2;
 float PIB2;
 int PontosTuristicos2;
